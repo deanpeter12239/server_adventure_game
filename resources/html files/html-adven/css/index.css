@@ -1,0 +1,129 @@
+body{
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header{
+	display: flex;
+	/*property sets how flex items are placed in the 
+	flex container defining the main axis and the direction 
+	(normal or reversed) (row,column, row-reverse, column-reverse).*/
+	/*flex-direction: row;*/
+	/*property sets the initial main size of a flex item. 
+	It sets the size of the content box unless otherwise 
+	set with box-sizing.*/
+	/*flex-basis: ;*/
+	/*specifies the direction of a flex container,
+	as well as its wrapping behavior.*/
+/*	flex-flow: ;*/
+	/*property sets whether flex items are forced onto one line 
+	or can wrap onto multiple lines.If wrapping is allowed,
+	it sets the direction that lines are stacked.*/
+	flex-wrap:nowrap; 
+	/*
+	flex-shrink: ;
+	flex-grow: ;
+	flex-direction: ;
+	sets how 3 flex item will grow or shrink to fit the space available in its flex container.
+	flex: auto auto auto;
+	*/
+}
+.header div{
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	border-bottom: dotted 4px grey;
+}
+h2{
+	color: yellow;
+}
+#logo{
+	width: 25%;
+
+}
+img{
+	display: inline;
+	border-radius: 200px;
+	margin: 10px;
+	padding: 10px;
+	width: 0%;
+	overflow: hidden;
+}
+#student_info{
+	width: 25%;
+}
+ul li{
+	color: yellow;
+	
+}
+i{
+	color: yellow;
+}
+.main_layout{
+	display: flex;
+	flex-direction: row;
+	height: 900px;
+}
+
+.main{
+	text-align: center;
+}
+.doors{
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	display: grid;
+	grid-template-rows: 110px 110px 110px 110px 110px;
+	grid-gap: 2px;
+	font-size: 1vw;
+	color: white;
+	
+
+}
+.doors a {
+	font-size: 40px;
+
+}
+.doors a:visited{
+	color: white;
+}
+.doors h1{
+	padding-top: 30px;
+
+}
+div .doors #door_a,
+    .doors #door_b,
+    .doors #door_c,
+    .doors #door_d{
+    	margin-left: -90px;
+    	width:90%;
+    	border-radius: 40px;
+    	margin-top: 5px;
+    	border: solid 1px yellow;
+    	background-color: grey;
+}
+
+div #door_a:hover,
+    #door_b:hover,
+    #door_c:hover,
+    #door_d:hover{
+    	background-color: orange;
+    	transition: 0.3s;
+    	width: 100%;
+    }
+
+.story_board{
+	padding-right: 20px;
+	color: white;
+	width: 100%;
+	font-size: 30px;
+	background-color: black;
+	opacity: 0.8;
+	border:500px 0px 0px 20px;
+}
+.footer_layout{
+	
+}

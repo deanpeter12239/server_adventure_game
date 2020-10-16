@@ -1,0 +1,33 @@
+div{
+	margin: 5px auto;
+	color: yellow;
+	background-color: black;
+	opacity: 0.7;
+	width: 70%;
+	height: 500px;
+	text-align: center;
+	border-radius: 25px;
+}
+p{
+	font-size: 2vw;
+}
+img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50px;
+	margin: 5px auto;
+}
+img:hover{
+	border:dotted 5px red;
+}
+div p{
+	color: white;
+}
+#home{
+	margin: 5px auto;
+	background-color: green;
+	opacity: 0.7;
+	width: 20%;
+	height: 50px;
+	border-radius: 20px
+}

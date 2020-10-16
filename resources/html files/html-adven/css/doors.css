@@ -1,0 +1,66 @@
+body{
+	background-color: black;
+	background-size: cover;
+
+}
+.header_layout{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	background-color: black;
+	height: 110px;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+
+}
+
+#logo{
+	width: 25%;
+	border-radius: 30px;
+	color:yellow;
+
+}
+#content{
+	width: 50%;
+	border-radius: 30px;
+}
+#name{
+	width: 25%;
+	border-radius: 900px;
+	color: yellow;
+}
+.main{
+	background-color: black;
+}
+.door{
+	display: flex;
+	flex-direction: row;
+	margin: 50px auto;
+	background-color: black;
+	opacity: 0.9;
+
+}
+#curboards_a{
+	background-color: black;
+	width: 50%;
+	height: 300px;
+	border-radius: 1000px;
+	margin: 20px;
+}
+  img{
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	margin: 0px auto;
+	border: solid white 1px;
+	border-radius: 30px;
+	
+}
+#curboards_b{
+background-color:black;
+width: 50%;
+height: 300px;
+border-radius: 1000px;
+margin: 20px;
+}
